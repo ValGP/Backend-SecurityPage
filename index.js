@@ -52,6 +52,6 @@ app.post('/enviar-correo', (req, res) => {
 });
 
 // Inicia el servidor Express en el puerto 3001
-app.listen(3000, () => {
-  console.log('Servidor Express iniciado en el puerto 3000');
+app.listen(3001, () => {
+  console.log('Servidor Express iniciado en el puerto 3001');
 });
